@@ -1,8 +1,43 @@
+.bg-header{
+    height:120px;
+    background-color:#182e48;
+    .container{
+        width: 100%;
+        padding: 0 15px;
+        .headline{
+            font-family: "OpenSans-Regular";
+            color: white;
+            font-size: 45px;
+            font-weight: 700;
+            font-style: italic;
+            line-height: 23px;
+            margin: 30px;            
+        }
+        .bottom-headline{
+            font-family: "OpenSans-Regular";
+            color: #ffffff;
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 23px; 
+            margin: -10px 30px;         
+        }
+    }
+}
+
+.stage
+    {color: #000000;
+    font-family: "OpenSans-Regular";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 23px;
+    margin: 50px 0;
+
+}
 
 .color{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     align-items: center;
     div{ width: 100px;
         height: 100px;
@@ -13,18 +48,81 @@
     .p-2{background-color: $p-2};
     .p-3{background-color: $p-3};
     .p-4{background-color: $p-4};
+
     .l1-1{background-color:$l1-p1};
+    .l1-2{background-color:$l1-p2};
+    .l1-3{background-color:$l1-p3};
+    .l1-4{background-color:$l1-p4};
+
     .l2-1{background-color:$l2-p1};
+    .l2-2{background-color:$l2-p2};
+    .l2-3{background-color:$l2-p3};
+    .l2-4{background-color:$l2-p4};
+
     .l3-1{background-color:$l3-p1};
+    .l3-2{background-color:$l3-p2};
+    .l3-3{background-color:$l3-p3};
+    .l3-4{background-color:$l3-p4};
+
     .d1-1{background-color:$d1-p1};
+    .d1-2{background-color:$d1-p2};
+    .d1-3{background-color:$d1-p3};
+    .d1-4{background-color:$d1-p4};
+    
     .d2-1{background-color:$d2-p1};
+    .d2-2{background-color:$d2-p2};
+    .d2-3{background-color:$d2-p3};
+    .d2-4{background-color:$d2-p4};
+
     .d3-1{background-color:$d3-p1};
+    .d3-2{background-color:$d3-p2};
+    .d3-3{background-color:$d3-p3};
+    .d3-4{background-color:$d3-p4};
 }
 
+
 h1{
-    @include fonts(36px,tahoma,400,green)
+    @include fonts(35px,"Poppins-Bold",700,$d3-p4)
 }
 
 h2{
-    @include fonts(48px,tahoma,700,yellow)
+    @include fonts(33px,"Poppins-Medium",400,$d2-p4)
+}
+.Headers{
+    .blue h2{
+        background-color: #03a9f4;
+        color: white;
+        padding: 0 10px;
+    }
+}
+
+
+h3{
+    @include fonts(27px,"Poppins-Medium",400,$d3-p4)
+}
+
+h4{
+    @include fonts(22px,"Poppins-Medium",400,$d3-p4)
+}
+
+h5{
+    @include fonts(17px,"Poppins-Medium",400,$d3-p4)
+}
+
+h6{
+    @include fonts(15px,"Poppins-Medium",400,$d3-p4)
+}
+
+p{
+    @include fonts(14px,"Poppins-Medium",400,$d1-p4)
+}
+
+.Subtitle p{
+    @include fonts(20px,"Poppins-Medium",400,$d1-p4)
+}
+.Subtitle-blue p{
+    @include fonts(20px,"Poppins-Medium",400,$d1-p4);
+    background-color: #03a9f4;
+    color: white;
+    padding: 0 30px;
 }
