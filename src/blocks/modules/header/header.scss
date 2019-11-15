@@ -126,3 +126,17 @@ p{
     color: white;
     padding: 0 30px;
 }
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    align-items: center;
+    .normal{
+        .col-2{
+            height: 50px;
+            background-color:$p-2;
+        }
+    }
+
+}
