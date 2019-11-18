@@ -5,7 +5,7 @@
         width: 100%;
         padding: 0 15px;
         .headline{
-            font-family: "OpenSans-Regular";
+            font-family: $fonts-Op;
             color: white;
             font-size: 45px;
             font-weight: 700;
@@ -14,7 +14,7 @@
             margin: 30px;            
         }
         .bottom-headline{
-            font-family: "OpenSans-Regular";
+            font-family: $fonts-Op;
             color: #ffffff;
             font-size: 17px;
             font-weight: 400;
@@ -26,7 +26,7 @@
 
 .stage
     {color: #000000;
-    font-family: "OpenSans-Regular";
+    font-family: $fonts-Op;
     font-size: 22px;
     font-weight: 700;
     line-height: 23px;
@@ -82,35 +82,92 @@
 
 
 h1{
-    @include fonts(35px,"Poppins-Bold",700,$d3-p4)
+    @include fonts(35px,$fonts-sb,700,$d3-p4)
 }
 
 h2{
-    @include fonts(33px,"Poppins-Medium",400,$d2-p4)
+    @include fonts(33px,$font-m,400,$d2-p4)
 }
 
 h3{
-    @include fonts(27px,"Poppins-Medium",400,$d3-p4)
+    @include fonts(27px,$font-m,400,$d3-p4)
 }
 
 h4{
-    @include fonts(22px,"Poppins-Medium",400,$d3-p4)
+    @include fonts(22px,$font-m,400,$d3-p4)
 }
 
 h5{
-    @include fonts(17px,"Poppins-Medium",400,$d3-p4)
+    @include fonts(17px,$font-m,400,$d3-p4)
 }
 
 h6{
-    @include fonts(15px,"Poppins-Medium",400,$d3-p4)
+    @include fonts(15px,$font-m,400,$d3-p4)
 }
 
+
+h1:hover{
+    color: white;
+    background-color: #03a9f4;
+    width: 460px;
+}
+
+h2:hover{
+    color: white;
+    background-color: #03a9f4;
+    width: 425px;
+}
+
+h3:hover{
+    color: white;
+    background-color: #03a9f4;
+    width: 350px;
+}
+
+h4:hover{
+    color: white;
+    background-color: #03a9f4;
+    width: 285px;
+}
+
+h5:hover{
+    color: white;
+    background-color: #03a9f4;
+    width: 220px;
+}
+
+h6:hover{
+    color: white;
+    background-color: #03a9f4;
+    width: 195px;
+}
+
+
 p{
-    @include fonts(14px,"Poppins-Medium",400,$d1-p4)
+    @include fonts(14px,$font-m,400,$d1-p4)
+}
+
+ul{
+    list-style-type: none;
+      
+    li{
+        i{
+           color:#0287c3;
+           padding: 10px;
+        }
+    }
 }
 
 .Subtitle p{
-    @include fonts(20px,"Poppins-Medium",400,$d1-p4)
+    @include fonts(20px,$font-m,400,$d1-p4);
+    margin-top:38px;
+}
+
+.Subtitle p:hover{
+    color: white;
+    background-color: #03a9f4;
+    padding:10px;
+    width: 500px;
 }
 
 
@@ -119,3 +176,20 @@ p{
      padding: 15px 10px;
      border-left:solid 2px #03a9f4;
  }
+
+
+ .buttons{
+     p{ margin: 10px;} 
+   
+ }
+
+ .btn-warning:disabled{
+     background-color: black;
+     border: black;
+     color: grey;
+ }
+
+
+
+
+ 

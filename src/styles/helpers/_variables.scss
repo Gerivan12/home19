@@ -7,7 +7,7 @@ $p-4:#656a70;
 
 /*Lightem-1*/
 $l1-p1:mix($p-1,#fff,60%);
-$l1-p2:mix($p-2,#fff,60%);
+$l1-p2:mix($p-2,#fff,60%);                        
 $l1-p3:mix($p-3,#fff,60%);
 $l1-p4:mix($p-4,#fff,60%);
 
@@ -42,5 +42,9 @@ $d3-p3:mix($p-3,#000,30%);
 $d3-p4:mix($p-4,#000,30%);
 
 
+/*fonts*/
 
+$font-m:'Poppins Medium';
+$fonts-sb:'Poppins SemiBold';
+$fonts-Op:'Open Sans';
 
