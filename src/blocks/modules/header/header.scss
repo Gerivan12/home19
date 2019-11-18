@@ -88,14 +88,6 @@ h1{
 h2{
     @include fonts(33px,"Poppins-Medium",400,$d2-p4)
 }
-.Headers{
-    .blue h2{
-        background-color: #03a9f4;
-        color: white;
-        padding: 0 10px;
-    }
-}
-
 
 h3{
     @include fonts(27px,"Poppins-Medium",400,$d3-p4)
@@ -120,23 +112,10 @@ p{
 .Subtitle p{
     @include fonts(20px,"Poppins-Medium",400,$d1-p4)
 }
-.Subtitle-blue p{
-    @include fonts(20px,"Poppins-Medium",400,$d1-p4);
-    background-color: #03a9f4;
-    color: white;
-    padding: 0 30px;
-}
 
-.buttons{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    align-items: center;
-    .normal{
-        .col-2{
-            height: 50px;
-            background-color:$p-2;
-        }
-    }
 
-}
+ .Quotation{
+     @include background-fonts(#0287c3,#e6f7fe,"OpenSans-Regular",17px,400);
+     padding: 15px 10px;
+     border-left:solid 2px #03a9f4;
+ }

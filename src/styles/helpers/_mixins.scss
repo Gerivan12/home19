@@ -3,5 +3,20 @@
     font-size: $font-size;
     font-family: $font-family;
     font-weight: $font-weight;
-    color:$font-color ;
+    color:$font-color ; 
 }
+
+@mixin background-fonts($back-font-color,$back-color,$back-font-family,$back-font-size,$back-font-weight)
+{
+    color: $back-font-color,;
+    background-color: $back-color;
+    font-family:$back-font-family;
+    font-size:$back-font-size;
+    font-weight:$back-font-weight;
+}
+
+
+
+
+
+
