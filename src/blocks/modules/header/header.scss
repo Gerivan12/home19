@@ -178,18 +178,335 @@ ul{
  }
 
 
+.Input-name p:hover{
+    color: white;
+    background-color: $p-1;
+}
+
+.Input-name-N p:hover{
+    width: 55px;
+    padding: 0 2px;
+}
+
+.Input-name-H p:hover{
+    width: 45px;
+    padding: 0 2px;
+}
+
+.Input-name-A p:hover{
+    width: 50px;
+    padding: 0 2px;
+}
+
+.Input-name-4 p:hover{
+    width: 130px;
+    padding: 0 2px;
+}
+
+
+
+.Input-N input{
+    background-color: whitesmoke;
+    border: solid 1px grey;
+}
+
+.Input-H input{
+    background-color: whitesmoke;
+    border: solid 1px grey;
+}
+
+.Input-H input:hover{
+    background-color: white;
+}
+
+.Input-A input{
+    background-color: whitesmoke;
+    border: solid 1px grey;
+}
+
+.Input-A input:active{
+    border: solid 2px $p-1;
+}
+
+.Input-4 input{
+    background-color: whitesmoke;
+    border: solid 1px grey;
+}
+
+
+.Input-name-bottom{
+    margin-top: 50px;
+}
+
+.Input-name-bottom p:hover{
+    color: white;
+    background-color: $p-1;
+}
+
+.Input-bname-N p:hover{
+    width: 140px;
+    padding: 0 2px;
+}
+
+.Input-bname-H p:hover{
+    width: 125px;
+    padding: 0 2px;
+}
+
+.Input-bname-A p:hover{
+    width: 125px;
+    padding: 0 2px;
+}
+
+
+
+
+
  .buttons{
      p{ margin: 10px;} 
    
  }
 
- .btn-warning:disabled{
+ .btn:disabled{
      background-color: black;
      border: black;
      color: grey;
  }
 
+   
+
+
+    .Normal-Big  div{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    
+    .b1-r1 button{width: 220px;background-color: $p-2;border:solid 1px $p-2;color: #fff;} 
+    .b2-r1 button{width: 280px;background-color: $p-1;border: solid 1px $p-1;color: #fff;}
+    .b3-r1 button{width: 200px;background-color: $p-1;border:solid 1px $p-1;color: #fff;}
+    .b4-r1 button{width: 220px;border:solid  1px $p-2;color: $p-2;}
+    .b5-r1 button{width: 200px;border:solid 1px $p-1;color: $p-1;}
+
+
+    .b1-r1 button:hover{width: 220px;background-color: $p-2;border:solid 1px $p-2;color: #fff;} 
+    .b2-r1 button:hover{width: 280px;background-color: $p-1;border: solid 1px $p-1;color: #fff;}
+    .b3-r1 button:hover{width: 200px;background-color: $p-1;border:solid 1px $p-1;color: #fff;}
+    .b4-r1 button:hover{width: 220px;border:solid  1px $p-2;color: $p-2;}
+    .b5-r1 button:hover{width: 200px;border:solid 1px $p-1;color: $p-1;}
+
+  
+    .Hover-Big  div{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .b1-r2 button:hover{width: 220px;background-color: $l1-p2;border:solid 1px$l1-p2;color: #fff;} 
+    .b2-r2 button:hover{width: 280px;background-color: $l1-p1;border: solid 1px $l1-p1;color: #fff;}
+    .b3-r2 button:hover{width: 200px;background-color: $l1-p1;border:solid 1px $l1-p1;color: #fff;}
+    .b4-r2 button:hover{width: 220px;background-color: $l1-p2;border:solid  1px $l1-p2;color: #fff;}
+    .b5-r2 button:hover{width: 200px;background-color: $l1-p1;border:solid 1px $l1-p1;color: #fff;}
+
+    .b1-r2 button{width: 220px;background-color: $p-2;border:solid 1px $p-2;color: #fff;} 
+    .b2-r2 button{width: 280px;background-color: $p-1;border: solid 1px $p-1;color: #fff;}
+    .b3-r2 button{width: 200px;background-color: $p-1;border:solid 1px $p-1;color: #fff;}
+    .b4-r2 button{width: 220px;border:solid  1px $p-2;color: $p-2;}
+    .b5-r2 button{width: 200px;border:solid 1px $p-1;color: $p-1;}
 
 
 
- 
+    .Disable-Big  div{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .b1-r3 button{width: 220px;}
+    .b2-r3 button{width: 280px;}
+    .b3-r3 button{width: 200px;}
+    .b4-r3 button{width: 220px;}
+    .b5-r3 button{width: 200px;}
+
+    
+    .Normal-Small  div{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .sb1-r1 button{width: 150px;background-color: $p-2;border:solid 1px $p-2;color: #fff;} 
+    .sb2-r1 button{width: 170px;background-color: $p-1;border: solid 1px $p-1;color: #fff;}
+    .sb3-r1 button{width: 150px;background-color: $p-1;border:solid 1px $p-1;color: #fff;}
+    .sb4-r1 button{width: 150px;border:solid  1px $p-2;color: $p-2;}
+    .sb5-r1 button{width: 150px;border:solid 1px $p-1;color: $p-1;}
+
+    .sb1-r1 button:hover{width: 150px;background-color: $p-2;border:solid 1px $p-2;color: #fff;} 
+    .sb2-r1 button:hover{width: 170px;background-color: $p-1;border: solid 1px $p-1;color: #fff;}
+    .sb3-r1 button:hover{width: 150px;background-color: $p-1;border:solid 1px $p-1;color: #fff;}
+    .sb4-r1 button:hover{width: 150px;border:solid  1px $p-2;color: $p-2;}
+    .sb5-r1 button:hover{width: 150px;border:solid 1px $p-1;color: $p-1;}
+
+    .Hover-Small  div{
+        display: flex;
+        justify-content: space-between;        margin-bottom: 20px;
+        align-items: center;
+    }
+    .sb1-r2 button{width: 150px;background-color: $p-2;border:solid 1px $p-2;color: #fff;} 
+    .sb2-r2 button{width: 170px;background-color: $p-1;border: solid 1px $p-1;color: #fff;}
+    .sb3-r2 button{width: 150px;background-color: $p-1;border:solid 1px $p-1;color: #fff;}
+    .sb4-r2 button{width: 150px;border:solid  1px $p-2;color: $p-2;}
+    .sb5-r2 button{width: 150px;border:solid 1px $p-1;color: $p-1;}
+
+
+    .sb1-r2 button:hover{width: 150px;background-color: $l1-p2;border:solid 1px$l1-p2;color: #fff;} 
+    .sb2-r2 button:hover{width: 170px;background-color: $l1-p1;border: solid 1px $l1-p1;color: #fff;}
+    .sb3-r2 button:hover{width: 150px;background-color: $l1-p1;border:solid 1px $l1-p1;color: #fff;}
+    .sb4-r2 button:hover{width: 150px;background-color: $l1-p2;border:solid  1px $l1-p2;color: #fff;}
+    .sb5-r2 button:hover{width: 150px;background-color: $l1-p1;border:solid 1px $l1-p1;color: #fff;}
+
+    .Disable-Small  div{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .sb1-r3 button{width: 150px;}
+    .sb2-r3 button{width: 170px;}
+    .sb3-r3 button{width: 150px;}
+    .sb4-r3 button{width: 150px;}
+    .sb5-r3 button{width: 150px;}
+
+
+  .Tabnames ul{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .Tabnames a{
+    @include fonts(14px,$font-m,400,$d1-p4);
+    text-decoration: none;
+    padding-bottom: 31px;
+  }
+
+  .Tabnames a:hover{
+      color: $p-2;
+      border-bottom: solid 1px $p-2;
+  }
+  
+
+.Pagination ul{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}  
+
+.Pagination li{
+    @include fonts(15px,$font-m,400,$d1-p4)
+}
+
+.Pagination .circle-Pagination{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: $p-1;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.Dotted ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Dotted .circle-Dotted{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: $d1-p4;
+}
+
+.Dotted .circle-Dotted-border{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: solid 2px $p-1;
+}
+
+.Lorem{
+    border: solid 1px $d1-p4;
+    margin-bottom: 50px;
+    
+}
+
+.Lorem p{
+  padding-top: 20px;
+}
+
+.Social-icons ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Social-icons-grey i{
+    color:$d1-p4;
+    
+}
+
+.Social-icons-grey .fa-facebook-f:hover{
+    color:$d2-p1;}
+
+
+.Social-icons-grey .fa-twitter:hover{
+    color:$p-1;
+}
+
+.Social-icons-grey .fa-pinterest-p:hover{
+    color:red;
+}
+
+
+.Social-icons-grey .fa-google-plus-g:hover{
+    color:$p-2;
+}
+
+.Social-icons-back{
+    background-color: $p-1;
+    height: 55px;
+}
+
+.Social-icons-back ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+.circle-back-top i{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    margin: 10px 5px 5px 5px;
+}
+
+.circle-back-top i:hover{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: $d1-p1;
+    color: #fff; 
+    border: 2px solid $d1-p1;
+}
